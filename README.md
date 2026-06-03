@@ -56,29 +56,23 @@ To set up the environment for this project, follow these steps:
     sudo reboot
     ```
 
-2. **Create and navigate to the `flip` directory**:
-    ```bash
-    mkdir flip
-    cd flip
-    ```
-
-3. **Clone the repository into the `flip` directory**:
+2. **Clone this repository**:
     ```bash
     git clone https://github.com/mokuttii/Flip-Dot-Display
     cd Flip-Dot-Display
     ```
 
-4. **Create a virtual environment**:
+3. **Create a virtual environment**:
     ```bash
     python3 -m venv env
     ```
 
-5. **Activate the virtual environment**:
+4. **Activate the virtual environment**:
     ```bash
     . /env/bin/activate
     ```
 
-6. **Install the required dependencies**:
+5. **Install the required dependencies**:
     ```bash
     pip install opencv-python pyserial
     ```
@@ -87,7 +81,7 @@ To set up the environment for this project, follow these steps:
 
 1. **Activate the virtual environment**:
     ```bash
-    . /env/bin/activate
+    . env/bin/activate
     ```
 
 2. **Run the demo script**:
