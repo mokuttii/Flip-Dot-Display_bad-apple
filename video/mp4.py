@@ -1,7 +1,7 @@
 import cv2
 import os
 
-cap = cv2.VideoCapture('V.mp4')
+cap = cv2.VideoCapture('V.mp4') # video file name
 
 output_dir = 'frames' #filename
 os.makedirs(output_dir, exist_ok=True)
