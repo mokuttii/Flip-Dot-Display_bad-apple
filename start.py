@@ -4,11 +4,11 @@ import time
 import serial
 
 SERIAL_PORT = "/dev/serial0"
-BAUDRATE = 9600
-ROWS = 7
-COLS = 28
+BAUDRATE = 9600 #DIPスイッチによって変える
+ROWS = 7 #height
+COLS = 28 #width
 FRAME_DIR = "frames"
-FRAME_DELAY = 1 / 15.27
+FRAME_DELAY = 1 / 15.27 #15FPSで作動せてているがシリアル通信などで遅れるから15.27
 
 CMD_START = 0x80
 CMD_WRITE = 0x83
@@ -20,7 +20,7 @@ def print_matrix(matrix):
         print("".join("■" if col == "1" else "□" for col in row))
     print()
 
-
+# フリップドット更新
 def send_to_flipdot(ser, matrix):
     data_bytes = bytearray()
     for col in range(COLS):
