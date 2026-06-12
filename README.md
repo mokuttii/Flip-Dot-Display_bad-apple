@@ -58,7 +58,7 @@ To set up the environment for this project, follow these steps:
 
 2. **Clone this repository**:
     ```bash
-    git clone https://github.com/mokuttii/Flip-Dot-Display
+    git clone https://github.com/yuto-9/Flip-Dot-Display
     cd Flip-Dot-Display
     ```
 
