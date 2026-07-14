@@ -8,7 +8,7 @@ BAUDRATE = 9600 #DIPスイッチによって変える
 ROWS = 7 #height
 COLS = 28 #width
 FRAME_DIR = "frames"
-FRAME_DELAY = 1 / 15.27 #15FPSで作動せてているがシリアル通信などで遅れるから15.27
+FRAME_DELAY = 1 / 15
 
 CMD_START = 0x80
 CMD_WRITE = 0x83
